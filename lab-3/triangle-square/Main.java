@@ -12,6 +12,8 @@ public class Main {
         double c = cin.nextDouble();
         cin.close();
         double p = (a + b + c) / 2;
-        System.out.println("The square of triangle is " + Math.sqrt(p * (p - a) * (p - b) * (p - c)));
+        char life = '\u751F';
+        System.out.println("Life is " + life);
+        System.out.printf("The square of triangle with sides %.2f %.2f %.2f is %.3f\n", a, b, c, Math.sqrt(p * (p - a) * (p - b) * (p - c)));
     }
 }
